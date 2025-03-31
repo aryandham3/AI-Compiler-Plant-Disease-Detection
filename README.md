@@ -7,9 +7,11 @@ Overview
 This project focuses on detecting leaf infections in plants using a Hybrid CNN + Grey Wolf Optimizer (GWO) model. The dataset consists of labeled images of plant leaves with various diseases. The deep learning model is trained to classify these images accurately, helping in early disease detection.
 
 
+
 Dataset
 
 The dataset consists of Tomato plant leaf images, categorized into different disease types. It contains 6065 training images and 1514 validation images. The dataset is stored as a ZIP file (CD.zip), which needs to be extracted before training.
+
 
 
 Implementation
@@ -20,6 +22,7 @@ Images are loaded and normalized.
 
 Data is split into training (80%) and validation (20%) sets.
 
+
 Model Training
 
 A CNN model is designed with optimized convolutional layers.
@@ -27,6 +30,7 @@ A CNN model is designed with optimized convolutional layers.
 The model is trained on the dataset for 10 epochs.
 
 The trained model is saved as tomato_disease_model.h5.
+
 
 Training Output:
 
@@ -38,6 +42,7 @@ Epoch 10: Accuracy - 94.96%, Loss - 0.1343
 
 Final Validation Accuracy: 94.65%
 
+
 Performance Evaluation
 
 The model's accuracy and loss are tracked over epochs.
@@ -45,6 +50,7 @@ The model's accuracy and loss are tracked over epochs.
 Validation accuracy is used to check generalization.
 
 Metrics such as precision, recall, and F1-score will be calculated in future work.
+
 
 
 Future Work
@@ -55,9 +61,11 @@ Improve depth of convolutional layers and filter sizes for better feature extrac
 
 Use pre-trained architectures like ResNet or EfficientNet combined with GWO for better results.
 
+
 Enhance Dataset:
 
 Train on larger datasets with diverse plant diseases to improve model robustness.
+
 
 Performance Metrics:
 
@@ -75,6 +83,7 @@ Present results in both tabular and graphical formats.
 
 Implement an innovative fitness function to improve classification accuracy.
 
+
 Integration of GWO:
 
 Implement Grey Wolf Optimizer (GWO) for optimizing hyperparameters.
@@ -89,6 +98,7 @@ Extract the dataset (CD.zip).
 Open Jupyter Notebook and run the training script.
 
 The trained model will be saved as tomato_disease_model.h5.
+
 
 
 Requirements
