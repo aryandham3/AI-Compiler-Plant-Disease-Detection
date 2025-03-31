@@ -3,6 +3,7 @@ AI-compiler for image-based disease detection in plants using Hybrid CNN + GWO. 
 
 
 Overview
+
 This project focuses on detecting leaf infections in plants using a Hybrid CNN + Grey Wolf Optimizer (GWO) model. The dataset consists of labeled images of plant leaves with various diseases. The deep learning model is trained to classify these images accurately, helping in early disease detection.
 
 Dataset
