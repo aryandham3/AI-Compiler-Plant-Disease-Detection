@@ -117,8 +117,9 @@ OpenCV
 
 
 
-**Contributors
 
-Aryan Dham (147)
+**Contributors:**
 
-Aayush Kakkar (089)**
+**Aryan Dham (147)**
+
+**Aayush Kakkar (089)**
